@@ -1,5 +1,6 @@
 # Combining Two Or More Texts Properly (İki veya Daha Fazla Metnin Uygun Bir Şekilde Birleştirilmesi)
 
+## Proje Raporu ve daha fazla bilgi için Proje Raporu.pdf
 
 ***Bu*** ***projede*** ***iki*** ***veya*** ***daha*** ***fazla***
 ***metnin*** ***uygun*** ***bir*** ***şekilde*** ***birleştirilmesi***
