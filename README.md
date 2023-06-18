@@ -90,42 +90,26 @@ ettik. Kullanıcılar girdikleri
 
 verileri bir database kaydetmemiz gerekiyordu. Bunun içinde Mongodb
 Atlas Cloud kullandık. Database kaydedeceğimiz veriler sırasıyla
-;![](./syldk1cm.png){width="3.5in" height="1.0520833333333333in"}
+;
+
 
 > • Girilen metinler
-> • Birleştirilmiş metin 
+> 
+> • Birleştirilmiş metin
+>  
 > • Zaman
 
 Peki sayfalar arasındaki data transferini HttpSession ile yaptık.
-
-Resimde de görüldüğü gibi kullanıcı burada başarılı bir kayıt yapmıştır.
-Peki kaydımız nerede tutulmaktadır. Burada da yukarıda bahsettiğimiz
-gibi Mongodb databaseini kullandık aşağıda da örnek bir kayıt
-görülmektedir.
-
-> ![](./0zd3bgiu.png){width="3.4895833333333335in"
-> height="1.8437489063867016in"}Oluşturulan Classlar :
+![](images/0zd3bgiu.png)
 
 Yukarıda görülen giriş ekranı (index.jsp) girilen metin girilen sayı
 kadar text input adetini welcome.jsp sayfamızda görüntülemek için
 kullanıcıdan bu veriyi alıyoruz.
 
-• index.jsp
 
-• WelcomeServlet.java • Welcome.jsp
+![](images/lhb4cs4s.png)
 
-• ConnectServlet.java
-
-• MongoDbConnection.java • SaveDb.java
-
-• FormStyle.css
-
-> ![](./lhb4cs4s.png){width="3.4895833333333335in"
-> height="1.7083333333333333in"}Kullanılan programlar: Eclipse, MongoDb
-> Atlas
-
-![](./mwrpmh1j.png){width="3.5in"
-height="1.6458333333333333in"}Kullanıcı girdiği metinleri connect
+Kullanıcı girdiği metinleri connect
 butonuna tıkladığında ConnectServlet.java servlet serverda get edilen
 requesti alıp 1.aşamada uygulanan işlemler sonucunda sonucu session
 kullanarak tekrar welcome.jsp sayfamıza yönlendirip result altında
@@ -133,7 +117,32 @@ bulunan textarea içine yazdırıyoruz. Kullanıcı birleştirdiği metinleri
 kaydetmek istediğinde save butonuna tıkladığında aşağıdaki gibi bir
 görselle karşılaşacaktır.
 
-> **SÖZDE** **KOD**
+![](images/mwrpmh1j.png)
+
+Resimde de görüldüğü gibi kullanıcı burada başarılı bir kayıt yapmıştır.
+Peki kaydımız nerede tutulmaktadır. Burada da yukarıda bahsettiğimiz
+gibi Mongodb databaseini kullandık aşağıda da örnek bir kayıt
+görülmektedir.
+
+![](images/syldk1cm.png)
+
+Oluşturulan Classlar :
+
+>• index.jsp
+>
+>• WelcomeServlet.java • Welcome.jsp
+>
+>• ConnectServlet.java
+>
+>• MongoDbConnection.java • SaveDb.java
+>
+>• FormStyle.css
+
+ Kullanılan programlar: Eclipse, MongoDb Atlas
+
+
+
+>**SÖZDE** **KOD**
 
 1-BAŞLA
 
@@ -153,12 +162,12 @@ görselle karşılaşacaktır.
 
 9-BİTİR
 
-![](./05ipamg3.png){width="3.5in"
-height="2.3020833333333335in"}![](./yca23rnn.png){width="3.5in"
-height="1.7291666666666667in"}
 
 > **III.** **DENEYSEL** **SONUÇLAR**
->
+
+![](images/05ipamg3.png)
+![](images/yca23rnn.png)
+
 > **IV.** **SONUÇ**
 
 Bu projede iki veya daha fazla metnin uygun bir şekilde birleştirilmesi
@@ -167,40 +176,6 @@ görsel bir arayüzle sunduk ve Geliştirdiğimiz algoritmanın performans
 özelliklerini ve çalışma sürelerini farklı girişlere göre birbirleriyle
 karşılaştırıp gözlem yaptık.
 
-> **KAYNAKLAR**
-
-1\. https://devpractical.com/center-form-in-html-css/
-
-2\. https://linuxhint.com/clear-input-fields-javascript/
-
-3\. https://stackoverflow.com/questions/5467038/
-adding-3rd-party-jars-to-web-inf-lib-automatically-using-eclipse-tomcat
-
-4\. https://stackoverflow.com/questions/40600602
-/how-to-display-arraylist-objects-in-jsp-using-session-getattribute
-
-5\. https://stackoverflow.com/questions/10198893
-/how-to-display-results-on-same-page-as-requesting-page-in-jsp-servlets
-
-6\. https://www.educba.com/jsp-getparameter/ 7.
-https://kod5.org/jsp-session-implicit-object-
-
-> 12/
-
-8\. https://stackoverflow.com/questions/41588024
-/calling-method-onclick-of-jsp-form-jsp
-
-9\.
-https://digitalfox-tutorials.com/tutorial.php?title=How-to-add-remove-input-fields-dynamically-using-javascript
-(bu çok iyiiiii)
-
-10\. https://www.w3schools.com/jsref/prop_node_i nnertext.asp
-
-11\. https://www.w3schools.com/jsref/event_oncli ck.asp
-
-12\.
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden
-
 Devamında, kitap, dergi vb. gibi metinlerden elde edilen
 cümleler/kelimeler arasındaki benzerlik, frekans gibi özelliklerin
 bulunması, metinlerin birleştirip birleştirilmeyeceğine karar verilmesi
@@ -208,3 +183,31 @@ ve elde edilen verilerden karakter tabanlı cümlelerin/kelimelerin
 birleştirilmesi gibi metin düzenleme algoritmalarının nasıl çalıştığı
 ile ilgili bilgi edindik. Bu işlemlerin yapılması için gerekli algoritma
 yapılan araştırmalar ışığında uygulamaya çalıştık.
+
+> **KAYNAKLAR**
+
+1\. https://devpractical.com/center-form-in-html-css/
+
+2\. https://linuxhint.com/clear-input-fields-javascript/
+
+3\. https://stackoverflow.com/questions/5467038/adding-3rd-party-jars-to-web-inf-lib-automatically-using-eclipse-tomcat
+
+4\. https://stackoverflow.com/questions/40600602/how-to-display-arraylist-objects-in-jsp-using-session-getattribute
+
+5\. https://stackoverflow.com/questions/10198893/how-to-display-results-on-same-page-as-requesting-page-in-jsp-servlets
+
+6\. https://www.educba.com/jsp-getparameter/ 
+
+7\. https://kod5.org/jsp-session-implicit-object-12/
+
+8\. https://stackoverflow.com/questions/41588024/calling-method-onclick-of-jsp-form-jsp
+
+9\.https://digitalfox-tutorials.com/tutorial.php?title=How-to-add-remove-input-fields-dynamically-using-javascript
+
+10\. https://www.w3schools.com/jsref/prop_nodeinnertext.asp
+
+11\. https://www.w3schools.com/jsref/eventonclick.asp
+
+12\.https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden
+
+
